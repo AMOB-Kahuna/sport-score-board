@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.container {
+#container {
     display: flex;
     justify-content: space-around;
     width: 600px;
@@ -37,8 +37,10 @@ h3{
 .score{
     color: #F6511D;
     background-color: #00A6ED;
-    padding: 25px 50px 10px;
-    font-size: 80px;
+    padding: 25px 10px 10px;
+    text-align: center;
+    width: 150px;
+    font-size: 70px;
     font-weight: 700;
     margin: 0;
     border-radius: 5px;

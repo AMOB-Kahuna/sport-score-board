@@ -3,23 +3,23 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
+        <div id="container">
             <div class="team">
                 <h3>HOME</h3>
-                <div class="score">0</div>
+                <div id="home-score" class="score">0</div>
                 <div class="increment">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="homePlus1()">+1</button>
+                    <button onclick="homePlus2()">+2</button>
+                    <button onclick="homePlus3()">+3</button>
                 </div>
             </div>
             <div class="team">
                 <h3>GUEST</h3>
-                <div class="score">0</div>
+                <div id="guest-score" class="score">0</div>
                 <div class="increment">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="guestPlus1()">+1</button>
+                    <button onclick="guestPlus2()">+2</button>
+                    <button onclick="guestPlus3()">+3</button>
                 </div>
             </div>
         </div>
